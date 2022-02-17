@@ -2,6 +2,9 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+:root{
+    --basic-color : #E76F51;
+}
 header .top-banner .banner-half div p {
    color:#E0E0E0;
    text-align:justify;
@@ -11,6 +14,9 @@ header .top-banner .banner-half div p {
 }
 .card-button-2 .btn{
     background-color: #FFFFFF;
-     color: #E76F51; 
-     border: 2px solid #E76F51;"
+     color: var(--basic-color); 
+     border: 2px solid var(--basic-color);"
+}
+.client span {
+    color: var(--basic-color);
 }
