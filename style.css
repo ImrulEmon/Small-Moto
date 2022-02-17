@@ -17,7 +17,7 @@ header .top-banner .banner-half div p {
      color: var(--basic-color); 
      border: 2px solid var(--basic-color);"
 }
-.client span {
+.client,.faq span {
     color: var(--basic-color);
 }
 .star .bi{
