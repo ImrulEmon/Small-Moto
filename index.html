@@ -18,6 +18,54 @@
 
 <body>
     <header style="background-color: #264653;">
+        <!-- Nav bar Start -->
+        <nav class="navbar navbar-light fixed-top" style="background-color: #264653;">
+            <div class="container-fluid">
+                <!-- nav logo -->
+                <a class="navbar-brand" href="#">
+                    Small Moto
+                    <img src="images/favicon.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Small Moto</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#featured">Featured</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#news">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#client">Client</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#faq">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#feedback">Feedback</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Nav bar end -->
         <!-- Top Banner Start -->
         <section class="top-banner container-fluid text-white">
             <div class="banner-half row align-items-center justify-content-center py-5">
@@ -44,7 +92,7 @@
     </header>
     <main>
         <!-- feature start-->
-        <section class="my-5 container align-items-center justify-content-center">
+        <section id="featured" class="my-5 container align-items-center justify-content-center">
             <!-- feature text start -->
             <div class="text-center">
                 <h1>
@@ -75,7 +123,7 @@
         <!-- Feature End -->
         <!-- ------------------- -->
         <!-- Latest News Start -->
-        <Section class="container my-5">
+        <Section id="news" class="container my-5">
             <h1 class="text-center my-5"><span style="color: var(--basic-color);">Latest</span> News</h1>
             <!-- Cards start -->
             <article class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -133,7 +181,7 @@
         <!-- Latest News End -->
         <!-- ------------------------- -->
         <!-- client start -->
-        <Section class="container my-5 client text-center">
+        <Section id="client" class="container my-5 text-center">
             <h1 class="text-center my-5">Happy <span>Client Says</span></h1>
             <!-- Cards start -->
             <article class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -281,7 +329,7 @@
         </Section>
         <!-- client end -->
         <!-- faq start -->
-        <section class="container faq my-5">
+        <section id="faq" class="container my-5">
             <h1 class="text-center my-4">Frequently <span>Asked Questions</span></h1>
             <article class="row">
                 <!-- faq image start -->
@@ -303,9 +351,10 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> Safety First! Always obey the rules of the road. Obey all traffic 
-                                    signals, signs, and laws. Get in the mindset of “driving” your 
-                                    bike—not just “riding” your bike. This will help you be a more 
+                                    <strong>This is the first item's accordion body.</strong> Safety First! Always obey
+                                    the rules of the road. Obey all traffic
+                                    signals, signs, and laws. Get in the mindset of “driving” your
+                                    bike—not just “riding” your bike. This will help you be a more
                                     focused and legally compliant bike rider.
                                 </div>
                             </div>
@@ -321,7 +370,8 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cupiditate molestiae, autem ipsam pariatur labore explicabo ea! Quibusdam, quod non?
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cupiditate molestiae,
+                                    autem ipsam pariatur labore explicabo ea! Quibusdam, quod non?
                                 </div>
                             </div>
                         </div>
@@ -336,7 +386,9 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor cumque corporis quas, incidunt voluptates quibusdam molestiae officiis exercitationem voluptas quidem. Saepe omnis aut inventore vero?
+                                    <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor cumque
+                                        corporis quas, incidunt voluptates quibusdam molestiae officiis exercitationem
+                                        voluptas quidem. Saepe omnis aut inventore vero?
                                 </div>
                             </div>
                         </div>
@@ -351,7 +403,7 @@
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor cumque corporis quas, incidunt voluptates quibusdam molestiae officiis exercitationem voluptas quidem. Saepe omnis aut inventore vero?
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, numquam. Repellendus hic nisi placeat? Dolorem aliquam adipisci veritatis eligendi facilis.
                                 </div>
                             </div>
                         </div>
@@ -363,23 +415,24 @@
         </section>
         <!-- faq end -->
         <!-- feedback start -->
-        <section class="container my-5">
+        <section id="feedback" class="container my-5">
             <h1 class="text-center my-5">Give Your <span>Feedback</span></h1>
-           <div class="w-75 mx-auto">
-            <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email address</label>
-              </div>
-              <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                <label for="floatingTextarea2">Comments</label>
-              </div>
-              <button class="btn btn-success my-3 px-4">Submit</button>
-           </div>
+            <div class="w-75 mx-auto">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                </div>
+                <button class="btn btn-success my-3 px-4">Submit</button>
+            </div>
         </section>
         <!-- feedback end -->
         <!-- map & address start -->
-        <section class="container-fluid my-5 map">
+        <section id="about" class="container-fluid my-5 map">
             <div class="row align-items-center ">
                 <!-- address -->
                 <div class="text-center">
@@ -389,45 +442,47 @@
                     </h6>
                     <p class="text-muted">Sylhet</p>
                     <hr class="mx-auto" style="border: 3px solid
-                    green); width: 8%;">
+                    green; width: 8%;">
                 </div>
                 <!-- address end -->
                 <!-- map start -->
-                        <iframe class="shadow-lg p-3 border border-warning rounded-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.5878780967455!2d91.90119001534123!3d24.912035449322925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375054a4e66f1ec1%3A0x3e2ae74e74fcec4e!2sAlurtol%20Road!5e0!3m2!1sen!2sbd!4v1645122254619!5m2!1sen!2sbd" width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>      
+                <iframe class="shadow-lg p-3 border border-warning rounded-3"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.5878780967455!2d91.90119001534123!3d24.912035449322925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375054a4e66f1ec1%3A0x3e2ae74e74fcec4e!2sAlurtol%20Road!5e0!3m2!1sen!2sbd!4v1645122254619!5m2!1sen!2sbd"
+                    width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <!-- map end -->
             </div>
         </section>
         <!-- map & address end -->
     </main>
     <footer class="container-fluid bg-dark text-white fw-light h-50 justify-content-lg-around py-5">
-      
-       <div class="container d-lg-flex justify-content-lg-evenly gap-3">
-        <div class="footer-terms d-flex gap-5">
-            <div class="d-flex flex-column justify-content-center">
-            <a href="">Download Now</a>
-            <a href="">License</a>
-            <a href="">About</a>
-            <a href="">Features</a>
+
+        <div class="container d-lg-flex justify-content-lg-evenly gap-3">
+            <div class="footer-terms d-flex gap-5">
+                <div class="d-flex flex-column justify-content-center">
+                    <a href="#">Home</a>
+                    <a href="">License</a>
+                    <a href="">About</a>
+                    <a href="">Features</a>
+                </div>
+                <div class="d-flex flex-column">
+                    <a href="">Pricing</a>
+                    <a href="">Career</a>
+                    <a href="">Help</a>
+                    <a href="">Privacy Policy</a>
+                </div>
             </div>
-            <div class="d-flex flex-column">
-            <a href="">Pricing</a>
-            <a href="">Career</a>
-            <a href="">Help</a>
-            <a href="">Privacy Policy</a>
+            <div>
+                <h6 class="text-muted">Get the App</h6>
+                <a href="">
+                    <img style="filter: invert(100%);" class="app-logo py-1 mx-auto" src="images/play.png">
+                </a>
+                <br>
+                <a href="">
+                    <img style="filter: invert(100%);" class="app-logo py-1 mx-auto" src="images/appstore.png">
+                </a>
             </div>
         </div>
-        <div>
-            <h6 class="text-muted">Get the App</h6>
-           <a href="">
-            <img style="filter: invert(100%);" class="app-logo py-1 mx-auto" src="images/play.png">
-           </a>
-           <br>
-           <a href="">
-            <img style="filter: invert(100%);" class="app-logo py-1 mx-auto" src="images/appstore.png">
-           </a>
-        </div>
-       </div>
-       <p class="mt-3 text-center"> Copyright © Imrul Emon | 2022</p>
+        <p class="mt-5 text-center"> Copyright © Imrul Emon | 2022</p>
     </footer>
     <!-- JS Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
