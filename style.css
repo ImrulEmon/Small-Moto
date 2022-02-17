@@ -9,3 +9,8 @@ header .top-banner .banner-half div p {
 .featured-bike-grayscale img {
     filter: grayscale(100%);
 }
+.card-button-2 .btn{
+    background-color: #FFFFFF;
+     color: #E76F51; 
+     border: 2px solid #E76F51;"
+}
