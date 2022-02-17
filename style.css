@@ -20,3 +20,6 @@ header .top-banner .banner-half div p {
 .client span {
     color: var(--basic-color);
 }
+.star .bi{
+    color: var(--basic-color);
+}
