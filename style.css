@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden !important;
 }
 :root{
     --basic-color : #E76F51;
@@ -40,4 +41,8 @@ span{
 }
 .accordion-body{
     background: #e8eeff;
+}
+.footer-terms a {
+    text-decoration: none;
+    color: white;
 }
