@@ -6,3 +6,6 @@ header .top-banner .banner-half div p {
    color:#E0E0E0;
    text-align:justify;
 }
+.featured-bike-grayscale img {
+    filter: grayscale(100%);
+}
