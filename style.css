@@ -10,6 +10,9 @@ header .top-banner .banner-half div p {
    color:#E0E0E0;
    text-align:justify;
 }
+h1 , h2 , h3, h4, h5 , h6 {
+    overflow: hidden;
+}
 .featured-bike-grayscale img {
     filter: grayscale(100%);
 }
@@ -27,7 +30,6 @@ span{
 .accordion-item,.accordion-header{
     background-color: transparent !important;
     border: none !important;
-    padding: 0 !important;
     margin-bottom: 20px;
     border-radius: 5px !important;
 }
